@@ -1,56 +1,80 @@
-# 💻 WBS Coding School – Module 2: Frontend Development
-
-Welcome to my Module 2 repository from the one year Software Engineer program. This module explores the core tools and technologies used in modern **frontend development**.
+# 📚 Module 1 – Computer Science Fundamentals & Python Programming
 
 ---
 
-## 🧭 What We’re Covering
+## 🧠 About This Repository
 
-Throughout this 2.5-month journey, we’ll be diving into:
+This repository contains all my work, exercises, and projects from **Module 1** of the WBS Coding School Software Engineering program.
 
-### 📄 Markup & Styling
-- **HTML** – Structure and semantics
-- **CSS** – Layout, animations, responsiveness
-- **Responsive Design** – Mobile-first and adaptive styling
+The focus was on building a strong foundation in:
 
-### 🧠 Programming in the Browser
-- **JavaScript (ES6+)** – Logic, DOM manipulation, events
-- **TypeScript** – Strong typing for large-scale frontend apps
-
-### ⚛️ Frontend Frameworks
-- **React.js** – Components, hooks, props, state
-
-### 🌐 Working with Data
-- **RESTful APIs** – Fetching and rendering dynamic data
-- **Asynchronous JS** – Promises, `fetch`, async/await
-
-### 🧪 Tools & Collaboration
-- **Git & GitHub** – Version control, branches, collaboration
-- **DevTools & Linters** – Debugging and best practices
+- **Computer Science Fundamentals**  
+- **Python Programming** (PCEP level and beyond)
+- **Data Structures and Algorithms**
+- **Object-Oriented Programming (OOP)**
+- **Databases and PostgreSQL Basics**
+- **Introduction to Web Development with Flask**
 
 ---
 
-## 🚀 What's Next?
+## 📂 Contents
 
-This repository will grow with:
-- Daily or weekly project folders
-- Personal experiments and sandbox files
-- Notes and summaries on each topic covered
-
-Stay tuned for:
-- Component-based projects in React
-- API-integrated mini apps
-- TypeScript conversions
-- Team collaboration via GitHub
+| Folder / File | Topic |
+|:--------------|:------|
+| `00_python_intro/` | Basics of Python syntax and operations |
+| `01_python_lists/` | Working with lists and basic collections |
+| `02_python_tuples/` | Immutable sequences in Python |
+| `03_python_sets/` | Set theory and set operations |
+| `04_python_dictionaries/` | Key-value mappings |
+| `05_python_control_flow/` | If, Elif, Else, and Loop structures |
+| `06_python_functions/` | Writing and using functions |
+| `07_python_lambda/` | Lambda functions and short expressions |
+| `08_python_try_except/` | Error handling with try/except/finally |
+| `09_python_classes/` | Object-Oriented Programming (OOP) basics |
+| `10_python_data_structure/` | Structuring data effectively |
+| `11_python_arrays/` | Array usage and management |
+| `12_python_stacks/` | Stack data structure fundamentals |
+| `13_python_queues/` | Queue operations and applications |
+| `14_python_linear_datastruc_ex/` | Linear Data Structures exercises |
+| `15_python_non_linear_datastruc/` | Introduction to Trees and Graphs |
+| `16_python_trees/` | Tree structures explained |
+| `17_Graphs/` | Basic graph theory and traversals |
+| `18_db_postgres/` | Introduction to relational databases and SQL (PostgreSQL) |
+| `19_flask_projects/` | Small Flask applications and experiments |
 
 ---
 
-## 🧑‍💻 About Me
+## 🚀 Key Skills Developed
 
-I'm Dennis — a career-changer, problem-solver, and frontend enthusiast learning to build intuitive and maintainable user interfaces. This repo documents my learning path and projects along the way.
+- Python Programming (PCEP Level and PCAP Preparation)
+- Data Structures (Lists, Stacks, Queues, Trees, Graphs)
+- Algorithms and Big O Notation
+- Basic Databases (PostgreSQL: SQL basics)
+- Web Fundamentals (Intro to Flask framework)
 
 ---
 
-## 📌 Follow Along
+## 🔥 Highlights
 
-Clone, fork, or star to follow my progress — or reach out if you’re also learning frontend!
+- Implemented core CS concepts through projects.
+- Built working Flask web apps connected to databases.
+- Hands-on experience with problem-solving and software engineering thinking.
+- Structured all learning using Git and GitHub.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- PostgreSQL
+- Flask
+- Git & GitHub
+
+---
+
+## 📜 License
+
+This repository is part of my educational journey at **WBS Coding School**.  
+Feel free to explore and learn — feedback is always welcome!
+
+---
