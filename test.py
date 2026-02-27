@@ -9,16 +9,17 @@ def spiralize_00(size):
     def is_valid(ny, nx):
         # Check if inside the board and if the cell is 0
         if 0 <= ny < size and 0 <= nx < size and board[ny][nx] == 0:
-            # Check all 8 surrounding cells
-            for dy in [-1, 0, 1]:
-                for dx in [-1, 0, 1]:
-                    if dy == 0 and dx == 0:
-                        continue
-                    ty, tx = ny + dy, nx + dx
-                    if 0 <= ty < size and 0 <= tx < size:
-                        if board[ty][tx] == 1:
-                            return False
-            return True
+            count = 0
+            # Check all 4 cardinal surrounding cells
+            for dy, dx in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+                ty, tx = ny + dy, nx + dx
+                if 0 <= ty < size and 0 <= tx < size:
+                    if board[ty][tx] == 1:
+                        count += 1
+            # We can move to a cell if it has at most 1 neighbor that is 1
+            # (which is the cell we are coming from)
+            if count <= 1:
+                return True
         return False
 
     while True:
@@ -61,7 +62,10 @@ def test(func):
     print("-" * 30)  # Separator line
     for a, expected in test_cases:
         result = func(a)
-        print(f"\nFunc: {func.__name__}({a})\n  Result: {result}\nExpected: {expected}")
+        if result == expected:
+            print(f"\nFunc: {func.__name__}({a})\n  Result: Matches Expected")
+        else:
+            print(f"\nFunc: {func.__name__}({a})\n  Result: {result}\nExpected: {expected}")
     print("-" * 30)  # End separator line
 
 # Run tests for each version
